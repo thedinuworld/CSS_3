@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Positions</title>
+    <style>
+        .static{
+            background-color: #cae8ca;
+            border: 2px solid #4CAF50;
+            width: 200px;
+            color: teal;
+            text-align: center;
+            background-image: url(img/nature.jpg);
+            position: static;
+            left: 100px;top: 50px;
+
+         }
+
+        .relative{
+            background-color: #cae8ca;
+            border: 2px solid #4CAF50;
+            width: 200px;
+            color: teal;
+            text-align: center;
+             background-image: url(img/nature.jpg);
+            position: relative;/*mandatory*/
+            left: 100px;
+
+
+        }
+
+        .relative_new{
+            background-color: #cae8ca;
+            border: 2px solid #4CAF50;
+            width: 400px;
+            height: 200px;
+            color: teal;
+            text-align: center;
+           left: 50px;
+            top: 50px;
+            margin-bottom: 10px;
+            position: relative;background-image: url(img/nature.jpg);
+
+        }
+
+        .absolute{
+            background-color: #cae8ca;
+            border: 2px solid #4CAF50;
+            width: 200px;
+            color: teal;
+            text-align: center;
+ background-image: url(img/background.jpg);
+ position: absolute;
+ left:50px;
+            /*top: 50px;
+            left: 50px;*/
+
+        }
+
+        .fixed{
+            background-color: #cae8ca;
+            border: 2px solid #4CAF50;
+            width: 200px;
+            color: teal;
+            text-align: center;
+            top: 0;
+            right: 0;
+            margin-bottom: 100px;
+            background-image: url(img/background.jpg);
+            position:fixed;
+
+
+
+        }
+
+
+        .sticky{
+            background-color: #cae8ca;
+            border: 2px solid #4CAF50;
+
+            top: 0;
+            padding: 5px;
+            background-image: url(img/background.jpg);
+            position:sticky;/*mandotary*/
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="static">
+        <p>Static</p>
+    </div>
+
+    <div class="relative">
+        <p>Relative</p>
+    </div>
+
+
+    <div class="relative_new">
+        <p>Ancestor</p>
+       <div class="absolute">
+           <p>Absolute</p>
+       </div>
+    </div>
+
+    <br><br>
+
+    <div class="fixed">
+        <p>Fixed</p>
+    </div>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, ducimus, repellat. Aspernatur at quae sed veniam. Cumque distinctio dolores est exercitationem explicabo hic libero, neque, porro, quisquam recusandae reprehenderit sit.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deleniti dicta distinctio eligendi esse fugiat harum, incidunt ipsa maxime molestias necessitatibus omnis quae quidem repellat sapiente totam voluptatem voluptates voluptatum?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deleniti dicta distinctio eligendi esse fugiat harum, incidunt ipsa maxime molestias necessitatibus omnis quae quidem repellat sapiente totam voluptatem voluptates voluptatum?</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deleniti dicta distinctio eligendi esse fugiat harum, incidunt ipsa maxime molestias necessitatibus omnis quae quidem repellat sapiente totam voluptatem voluptates voluptatum?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deleniti dicta distinctio eligendi esse fugiat harum, incidunt ipsa maxime molestias necessitatibus omnis quae quidem repellat sapiente totam voluptatem voluptates voluptatum?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deleniti dicta distinctio eligendi esse fugiat harum, incidunt ipsa maxime molestias necessitatibus omnis quae quidem repellat sapiente totam voluptatem voluptates voluptatum?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deleniti dicta distinctio eligendi esse fugiat harum, incidunt ipsa maxime molestias necessitatibus omnis quae quidem repellat sapiente totam voluptatem voluptates voluptatum?</p>
+    <div class="sticky">
+        <p>sticky</p>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deleniti dicta distinctio eligendi esse fugiat harum, incidunt ipsa maxime molestias necessitatibus omnis quae quidem repellat sapiente totam voluptatem voluptates voluptatum?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deleniti dicta distinctio eligendi esse fugiat harum, incidunt ipsa maxime molestias necessitatibus omnis quae quidem repellat sapiente totam voluptatem voluptates voluptatum?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deleniti dicta distinctio eligendi esse fugiat harum, incidunt ipsa maxime molestias necessitatibus omnis quae quidem repellat sapiente totam voluptatem voluptates voluptatum?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deleniti dicta distinctio eligendi esse fugiat harum, incidunt ipsa maxime molestias necessitatibus omnis quae quidem repellat sapiente totam voluptatem voluptates voluptatum?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deleniti dicta distinctio eligendi esse fugiat harum, incidunt ipsa maxime molestias necessitatibus omnis quae quidem repellat sapiente totam voluptatem voluptates voluptatum?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deleniti dicta distinctio eligendi esse fugiat harum, incidunt ipsa maxime molestias necessitatibus omnis quae quidem repellat sapiente totam voluptatem voluptates voluptatum?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deleniti dicta distinctio eligendi esse fugiat harum, incidunt ipsa maxime molestias necessitatibus omnis quae quidem repellat sapiente totam voluptatem voluptates voluptatum?</p>
+
+
+
+<p>fficia ut voluptate sed pariatur enim deserunt consectetur elit. Lorem ipsum ex dolore eu mollit commodo quis quis irure pariatur. Cillum sunt ut ut irure elit consectetur sed labore officia ut. Non pariatur laboris amet excepteur dolor culpa incididunt ullamco ea in est deserunt ex. Fugiat quis id sit ut adipisicing id consequat aute laboris labore duis. Culpa ullamco id aliqua in quis laboris dolore eu quis tempor commodo adipisicing quis reprehenderit commodo magna eiusmod. In ad dolor et veniam excepteur culpa laborum qui adipisicing fugiat magna nostrud laboris pariatur duis veniam in. Non mollit dolore esse et quis proident aliqua sunt exercitation. Pariatur et commodo ut proident aute enim adipisicing voluptate do est anim non. Lorem ipsum in nulla fugiat dolor in duis in anim in nisi incididunt sunt anim irure excepteur eu ut est ut. Magna anim quis ea dolore id mollit sed officia id sint eiusmod dolore commodo aute enim occaecat.></p>
+
+
+<p>fficia ut voluptate sed pariatur enim deserunt consectetur elit. Lorem ipsum ex dolore eu mollit commodo quis quis irure pariatur. Cillum sunt ut ut irure elit consectetur sed labore officia ut. Non pariatur laboris amet excepteur dolor culpa incididunt ullamco ea in est deserunt ex. Fugiat quis id sit ut adipisicing id consequat aute laboris labore duis. Culpa ullamco id aliqua in quis laboris dolore eu quis tempor commodo adipisicing quis reprehenderit commodo magna eiusmod. In ad dolor et veniam excepteur culpa laborum qui adipisicing fugiat magna nostrud laboris pariatur duis veniam in. Non mollit dolore esse et quis proident aliqua sunt exercitation. Pariatur et commodo ut proident aute enim adipisicing voluptate do est anim non. Lorem ipsum in nulla fugiat dolor in duis in anim in nisi incididunt sunt anim irure excepteur eu ut est ut. Magna anim quis ea dolore id mollit sed officia id sint eiusmod dolore commodo aute enim occaecat.></p>
+
+<p>fficia ut voluptate sed pariatur enim deserunt consectetur elit. Lorem ipsum ex dolore eu mollit commodo quis quis irure pariatur. Cillum sunt ut ut irure elit consectetur sed labore officia ut. Non pariatur laboris amet excepteur dolor culpa incididunt ullamco ea in est deserunt ex. Fugiat quis id sit ut adipisicing id consequat aute laboris labore duis. Culpa ullamco id aliqua in quis laboris dolore eu quis tempor commodo adipisicing quis reprehenderit commodo magna eiusmod. In ad dolor et veniam excepteur culpa laborum qui adipisicing fugiat magna nostrud laboris pariatur duis veniam in. Non mollit dolore esse et quis proident aliqua sunt exercitation. Pariatur et commodo ut proident aute enim adipisicing voluptate do est anim non. Lorem ipsum in nulla fugiat dolor in duis in anim in nisi incididunt sunt anim irure excepteur eu ut est ut. Magna anim quis ea dolore id mollit sed officia id sint eiusmod dolore commodo aute enim occaecat.></p>
+
+</body>
+</html>

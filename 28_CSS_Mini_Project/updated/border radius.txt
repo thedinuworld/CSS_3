@@ -1,0 +1,102 @@
+Skip to content
+Features
+Business
+Explore
+Marketplace
+Pricing
+This repository
+Search
+Sign in or Sign up
+3 19 4 thenaveensaggam/CSS3_Development
+ Code  Issues 0  Pull requests 0  Projects 0  Insights
+CSS3_Development/CSS_Starter_Template/03_CSS_Borders.html
+aa5624e  3 days ago
+@thenaveensaggam thenaveensaggam Update 03_CSS_Borders.html
+     
+74 lines (62 sloc)  1.27 KB
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Borders</title>
+    <style>
+        div{
+            background-color: lightgreen;
+            width: 500px;
+            padding: 10px;
+            margin: 5px;
+            text-align: center;
+        }
+        #border-top{
+            border-top: 5px solid green;
+        }
+        #border-right{
+            border-right: 5px solid green;
+        }
+        #border-bottom{
+            border-bottom: 5px solid green;
+        }
+        #border-left{
+            border-left: 5px solid green;
+        }
+        #border-all{
+            border: 5px solid green;
+        }
+        #rounded-all{
+            border: 5px solid green;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- BORDER TOP -->
+<div id="border-top">
+    <p>Border Top</p>
+</div>
+
+<!-- BORDER RIGHT -->
+<div id="border-right">
+    <p>Border Right</p>
+</div>
+
+<!-- BORDER BOTTOM -->
+<div id="border-bottom">
+    <p>Border Bottom</p>
+</div>
+
+<!-- BORDER LEFT -->
+<div id="border-left">
+    <p>Border Left</p>
+</div>
+
+
+<!-- BORDER ALL SIDES -->
+<div id="border-all">
+    <p>Border All</p>
+</div>
+
+<!-- ROUNDER BORDER ALL SIDES -->
+<div id="rounded-all">
+    <p>Rounded All</p>
+</div>
+
+
+<!-- CUSTOM BORDER -->
+
+
+</body>
+</html>
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog
+About
+Press h to open a hovercard with more details.

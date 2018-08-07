@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UiBrains Techno Portal</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../bootstrap/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Main Header -->
+    <header class="main-header">
+        <h2>UiBrains Techno Portal</h2>
+    </header>
+
+    <!-- Main Navigation -->
+    <nav class="main-nav">
+        <ul>
+            <li>
+                <a href="28_CSS_Mini_Project.html" class="active">
+                   <i class="fa fa-home"></i> Home
+                </a>
+            </li>
+            <li>
+                <a href="news.html">
+                  <i class="fa fa-newspaper-o"></i> News
+                </a>
+            </li>
+            <li>
+                <a href="gallery.html">
+                   <i class="fa fa-image"></i> Gallery
+                </a>
+            </li>
+            <li>
+                <a href="about.html">
+                  <i class="fa fa-id-card"></i>  About Us
+                </a>
+            </li>
+            <li>
+                <a href="contact.html">
+                   <i class="fa fa-envelope"></i> Contact Us
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Latest News -->
+    <section class="Latest-news">
+        <p>Latest News : Rolls Royce Engines now made in India</p>
+    </section>
+
+    <!-- Home Section -->
+    <section class="home-section">
+
+        <!-- Laptop News -->
+        <article class="home-article">
+            <h2>Laptop News</h2>
+            <p>
+                <img src="images/main_laptop.jpg">
+            </p>
+            <div class="home-article-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aperiam at atque consequatur culpa cupiditate, debitis doloribus eum excepturi expedita facere illum in iste minima necessitatibus nostrum nulla, perspiciatis quas, quasi quibusdam quidem quo ratione sunt suscipit temporibus tenetur voluptatibus?</p>
+            </div>
+        </article>
+
+        <!-- Mobile News -->
+        <article class="home-article">
+            <h2>Mobile News</h2>
+            <p>
+                <img src="images/main_mobile.JPG">
+            </p>
+            <div class="home-article-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aperiam at atque consequatur culpa cupiditate, debitis doloribus eum excepturi expedita facere illum in iste minima necessitatibus nostrum nulla, perspiciatis quas, quasi quibusdam quidem quo ratione sunt suscipit temporibus tenetur voluptatibus?</p>
+            </div>
+        </article>
+
+        <!-- Tablet News -->
+        <article class="home-article">
+            <h2>Tablet News</h2>
+            <p>
+                <img src="images/main_tablet.png">
+            </p>
+            <div class="home-article-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aperiam at atque consequatur culpa cupiditate, debitis doloribus eum excepturi expedita facere illum in iste minima necessitatibus nostrum nulla, perspiciatis quas, quasi quibusdam quidem quo ratione sunt suscipit temporibus tenetur voluptatibus?</p>
+            </div>
+        </article>
+    </section>
+
+    <!-- break -->
+    <div class="break"></div>
+
+    <!-- News Section -->
+    <section class="news-section">
+
+        <!-- Mobile Article -->
+        <article class="news-article">
+            <h2>Google Pixel3 Released in Mar 2018</h2>
+            <div class="zoom">
+                <img src="images/article_mobile.jpg">
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias aliquam consectetur consequuntur deserunt hic mollitia perspiciatis quo ratione rerum temporibus, vitae voluptate voluptates! Laboriosam minus provident quod? Dolore eius error expedita libero quaerat quasi quibusdam quisquam soluta ut voluptate.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci aliquam aperiam, architecto blanditiis consequatur dignissimos dolorem dolores eligendi et facere ipsam laudantium omnis provident quibusdam quisquam ratione rerum saepe sequi unde. Aperiam dignissimos, dolorem eveniet fugiat harum illum impedit, obcaecati placeat quia quis quod repellendus ut, veritatis? Tenetur, vero.</p>
+        </article>
+
+        <!-- Laptop Article -->
+        <article class="news-article">
+            <h2>Lenovo 20GB RAM , 5TB HD Released</h2>
+            <div class="zoom">
+                <img src="images/article_laptop.jpg">
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias aliquam consectetur consequuntur deserunt hic mollitia perspiciatis quo ratione rerum temporibus, vitae voluptate voluptates! Laboriosam minus provident quod? Dolore eius error expedita libero quaerat quasi quibusdam quisquam soluta ut voluptate.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci aliquam aperiam, architecto blanditiis consequatur dignissimos dolorem dolores eligendi et facere ipsam laudantium omnis provident quibusdam quisquam ratione rerum saepe sequi unde. Aperiam dignissimos, dolorem eveniet fugiat harum illum impedit, obcaecati placeat quia quis quod repellendus ut, veritatis? Tenetur, vero.</p>
+        </article>
+
+        <!-- Tablet Article -->
+        <article class="news-article">
+            <h2>ASUS Tablet Released in Mar 2018</h2>
+            <div class="zoom">
+                <img src="images/article_tablet.jpg">
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias aliquam consectetur consequuntur deserunt hic mollitia perspiciatis quo ratione rerum temporibus, vitae voluptate voluptates! Laboriosam minus provident quod? Dolore eius error expedita libero quaerat quasi quibusdam quisquam soluta ut voluptate.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci aliquam aperiam, architecto blanditiis consequatur dignissimos dolorem dolores eligendi et facere ipsam laudantium omnis provident quibusdam quisquam ratione rerum saepe sequi unde. Aperiam dignissimos, dolorem eveniet fugiat harum illum impedit, obcaecati placeat quia quis quod repellendus ut, veritatis? Tenetur, vero.</p>
+        </article>
+
+
+
+    </section>
+
+</body>
+</html>

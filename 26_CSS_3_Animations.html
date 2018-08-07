@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS3 Animation</title>
+<style>
+    .simple{width: 100px;height: 100px;background-color: red;animation-name:simple;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;}
+    @keyframe simple{
+        from {
+            background-color: yellow;
+
+        }
+        to{
+            background-color: blue;
+        }
+    }
+
+    .percentage{
+        width: 100%;height: 100%;background-color: #3c763d;animation-name: percentage;
+        animation-duration: 5s;
+        animation-iteration-count:infinite;}
+    @keyframes percentage {
+        0%{
+            background-color: yellow;
+    }
+        2%{
+            background-color: red;
+        }
+    10%{
+        background-color: cyan;
+    }
+    }
+    .news{
+        background-color: yellow;
+        color: #03a9f4;font-family: "Comic Sans MS";
+        animation-name: news;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes news {
+        0%{
+            background-color: orangered;
+        }
+        50%{
+            background-color: deeppink;
+        }
+    100%{
+    background-color;blue;
+    }
+    }
+    p{
+        font-size: 30px;
+    animation-name: flash news;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes flash news {
+        0%{
+           transform: translateX(100%);
+        }
+        100%{
+transform: translateX(100%)
+    }
+
+    .animate{
+        background-attachment: blue;
+    width: 100%;
+    height: 100%;
+
+        animation-name: animate;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;}
+    }
+    @keyframes animate {
+        0%{
+            background-color: red;
+            top: 0;
+            left: 0;
+        }
+        25%{
+            background-color: blue;
+            top: 0;
+            left: 0;
+        }
+        50%{
+            background-color: black;
+            top: 0;
+            left: 0;
+        }
+        0%{
+            background-color: gold;
+            top: 0;
+            left: 0;
+        }
+    }
+    .task{
+        background-image: url("img/gallery1.jpeg");
+        width: 100%;
+        height: 100%;
+        animation-name: task;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    @keyframes task{
+    }
+    }
+</style>
+</head>
+<body>
+
+    <h3>Simple Animation</h3>
+    <div class="simple">
+
+    </div>
+
+    <br><br><hr>
+
+    <h3>percentages animation</h3>
+    <div class="percentage">
+
+    </div>
+
+    <br><br><hr>
+
+
+
+    <h3>News</h3>
+    <div class="news">
+        <p>Latest News: Indian-made Iphones are available from Feb-2018</p>
+    </div>
+
+    <br><br><hr>
+<h2>Animate</h2>
+    <div class="animate">
+
+    </div>
+
+    <br><br><hr>
+<h2>Task</h2>
+    <div class="task">
+
+    </div>
+    <br><br><hr>
+
+</body>
+</html>

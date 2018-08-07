@@ -1,0 +1,103 @@
+Skip to content
+Features
+Business
+Explore
+Marketplace
+Pricing
+This repository
+Search
+Sign in or Sign up
+3 20 4 thenaveensaggam/CSS3_Development
+ Code  Issues 0  Pull requests 0  Projects 0  Insights
+CSS3_Development/CSS_Starter_Template/16_CSS_Vertical_Navigation.html
+7619546  3 days ago
+@thenaveensaggam thenaveensaggam Update 16_CSS_Vertical_Navigation.html
+     
+77 lines (71 sloc)  1.56 KB
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Vertical Navigation</title>
+    <style>
+        ul{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        aside{
+            float: left;
+            font-size: 30px;
+            width: 250px;
+            text-align: center;
+            border-radius: 10px;
+            margin-bottom: 100px;
+            font-family: "Comic Sans MS",sans-serif;
+        }
+        li a{
+            text-decoration: none;
+            color: black;
+            padding: 14px 25px;
+            display: block; /* mandatory */
+        }
+        li a:hover{
+            background-color: #506e93;
+            color: white;
+            border-radius: 10px;
+        }
+        li a.active{
+            background-color:#02052d;
+            color: white;
+            border-radius: 10px;
+        }
+        li:nth-child(even){
+            background-color: #6b6493;
+            border-radius: 10px;
+        }
+        li:nth-child(odd){
+            background-color: #528093;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+
+<aside>
+    <ul>
+        <li>
+            <a href="#" class="active">HTML</a>
+        </li>
+        <li>
+            <a href="#">JavaScript</a>
+        </li>
+        <li>
+            <a href="#">CSS</a>
+        </li>
+        <li>
+            <a href="#">TypeScript</a>
+        </li>
+        <li>
+            <a href="#">Bootstrap</a>
+        </li>
+        <li>
+            <a href="#">Angular JS</a>
+        </li>
+    </ul>
+</aside>
+
+</body>
+</html>
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog
+About
+Press h to open a hovercard with more details.
